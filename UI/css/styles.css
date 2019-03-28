@@ -287,6 +287,19 @@ main .new-bank-account form{
     font-weight: 100;
     border-radius: 5px;
 }
+
+.delete{
+    background-color: #bf0202;
+}
+.activate{
+    background-color: green;
+}
+.deactivate{
+    background-color: orange;
+}
+.activate, .deactivate, .delete{
+    font-weight: 700;
+}
 .btn:hover{
     box-shadow: 1px 1px 5px #111;
 }
@@ -408,7 +421,7 @@ main .new-bank-account form{
 .form, .info{
     max-width: 400px;
     
-    color: #7100C5;
+    color: #444446;
     margin: 10px auto;
     width:100%;
     border-radius: 5px;
@@ -417,6 +430,7 @@ main .new-bank-account form{
     font-weight: 600;
     font-size: 1.2rem;
     padding: 0.5rem 0;
+    color: #7100C5;
     line-height: 0px;
     margin-top: 5px;
     margin-bottom: 30px;
