@@ -3,8 +3,8 @@
     <head>
         <meta charset="uft-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Banka | Staff Dashboard</title>
         <meta name="description" content="Banka is a web application that would aid customers and banking staffs carry out banking activities easily">
+        <title>Banka | Admin Dashboard</title>
         <link rel="stylesheet" href="../../css/styles.css">
         <script src="../../javascript/script.js"></script>
         <script src="../../javascript/view_account.js"></script>
@@ -14,22 +14,21 @@
             <span class="message"></span>
         </div>
         <header>
-            <div class="container">
-                <a id="menu" href="javascript:void(0)">&#9776;</a>
-                <a href="../../../index.html" class="header-brand" title="Home"><img src="../../img/logo_small.png"></a>
-                <nav id="header-nav" class="hide">
-                    <ul>
-                        <li><a href="../../../index.html" title="Home">Home</a></li>
-                        <li class="active" title="Staff Dashboard">Dashboard</li>
-                        <li><a href="./credit.html" title="Perform credit operation">Credit</a></li>
-                        <li><a href="./debit.html" title="Perform debit operation">Debit</a></li>
-                        <li><a href="../../../index.html" title="log out">Logout</a></li>
-                    </ul>
-                </nav>
-            </div>
+                <div class="container">
+                    <a id="menu" href="javascript:void(0)">&#9776;</a>
+                    <a href="../../../index.html" class="header-brand" title="home"><img src="../../img/logo_small.png"></a>
+                    <nav id="header-nav" class="hide">
+                        <ul>
+                            <li><a href="../../../index.html" class="home" title="Home">Home</a></li>
+                            <li class="active">Dashboard</li>
+                            <li><a href="./create_user_account.html" title="Create user account">Create Account</a></li>
+                            <li><a href="../../../index.html" title="log out">Logout</a></li>
+                        </ul>
+                    </nav>
+                </div>
         </header>
         <main>
-            <div class="user-dashboard page">
+            <div class="page accounts">
                 <div class="form-holder">
                     <div class="form">
                         <h3>Accounts</h3>
@@ -124,6 +123,6 @@
                 </div>
             </div>
         </main>
-    <footer><p>Copyright &copy; banka 2019</p></footer>
+        <footer><p>Copyright &copy; banka 2019</p></footer>
     </body>
 </html>
